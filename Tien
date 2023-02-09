@@ -1,0 +1,14 @@
+package view;
+
+public class main {
+
+	public static void main(String[] args) {
+		MyWindow m1 = new MyWindow();
+//		m1.showIt();
+//		m1.showIt("Tien");
+		MyWindow m2 = new MyWindow();
+		m2.showIt("Tien", 340, 340);
+		
+	}
+
+}
